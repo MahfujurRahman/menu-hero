@@ -1,0 +1,106 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.header{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.header-logo{
+    padding-top: 10px;
+}
+
+.header-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-menu li{
+    display:inline-block;
+    padding:25px;
+    padding-right:0px;
+}
+
+.header-menu a{
+    color:#fff;
+    font-weight: 600;
+}
+
+.header-menu a:hover{
+    color: #D3A428;
+}
+.slider{
+    background-color: #263238;
+}
+
+.slider .row{
+    min-height: 540px;
+}
+.home-page-slide{
+    position: relative;
+}
+
+.slide-contain{
+
+}
+
+.slide-contain h2{
+    color: #FECE47;
+    font-size: 36px;
+    font-weight: normal;
+    padding-top: 150px;
+}
+
+.slide-contain p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.slide-contain a{
+    color: #FECE47;
+    font-size: 18px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.slide-img{
+    position: absolute;
+    right: 105px;
+    top: 92px;
+    max-height: 448px;
+}
